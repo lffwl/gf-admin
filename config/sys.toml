@@ -1,0 +1,26 @@
+# sys 配置文件
+
+# menuMethods
+[menuMethods]
+    1 = "Get"
+    2 = "Post"
+    3 = "Put"
+    4 = "DELETE"
+
+# menuTypes
+[menuTypes]
+    1 = "目录"
+    2 = "菜单"
+    3 = "按钮"
+    4 = "隐藏"
+
+# dps
+[dps]
+    0 = "仅自己"
+    1 = "所在组织架构和下级组织架构"
+    2 = "所有人"
+
+# adminStatus
+[adminStatus]
+    0 = "关闭"
+    1 = "开启"

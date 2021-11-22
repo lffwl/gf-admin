@@ -1,0 +1,13 @@
+# Upload 参数
+
+## 文件上传参数
+## private 是否私密文件，不是私密文件所有人都可以访问
+
+## 管理员头像参数
+[AdminAvatar]
+    private = "false"
+    path = "/admin-avatar/"
+    size = 307200 ## 300 KB
+    type = ["image/png","image/jpeg","image/gif"]
+
+

@@ -1,0 +1,43 @@
+# HTTP Server
+[server]
+	Address     = ":8198"
+	ServerRoot  = "public"
+	ServerAgent = "gf-app"
+	LogPath     = "/tmp/log/gf-app/server"
+    ## Dome 演示站点
+    dome = false
+
+# Logger.
+[logger]
+    Path        = "/tmp/log/gf-app"
+    Level       = "all"
+    Stdout      = true
+
+# Database.
+[database]
+    link  = "mysql:bieshu-oa:bieshu-oa@tcp(192.168.33.10:3306)/bieshu-oa"
+    debug = true
+    # Database logger.
+    [database.logger]
+        Path   = "/tmp/log/gf-app/sql"
+        Level  = "all"
+        Stdout = true
+
+[gfcli]
+    [[gfcli.gen.dao]]
+        link   = "mysql:bieshu-oa:bieshu-oa@tcp(192.168.33.10:3306)/bieshu-oa"
+        jsonCase = "Snake"
+        [gfcli.build]
+            name     = "go-admin-dome"
+            arch     = "amd64"
+            system   = "linux"
+            mod      = "none"
+            cgo      = 0
+            pack     = "i18n"
+            version  = "v1.0.0"
+            output   = "./bin"
+            extra    = ""
+
+## Upload
+[upload]
+    path   = "E:/go/src/bieshu-oa"

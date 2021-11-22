@@ -1,0 +1,40 @@
+## public
+"rule.in-array" = ":attribute 值 %s 不在范围内"
+"id.not.exist" = "ID %d 不存在"
+"id.exist.subset" = "ID %d 下存在 %d 个子集"
+"pid.not.exist" = "PID %d 不存在"
+"ids.not.exist" = "ID集合 %s 中有不存在的ID"
+"field.exist" = "%s字段 %s 已经存在"
+"field.not.exist" = "%s字段 %s 不存在"
+
+## admin
+"admin.password.error" = "密码错误"
+"admin.not-bind.role" = "管理员没有绑定任何角色"
+"set-admin.role.not.exist" = "设置了不存在的角色ID"
+
+## Role
+"set.role.menus.not.exist" = "设置了不存在的菜单ID"
+
+## menu
+"menu.router.method.exist" = "请求地址 %s 和请求类型 %s 已经存在"
+
+## Group
+"id.exist.admin" = "ID %d 下存在 %d 个管理员"
+
+
+## auth
+"auth.user-name.error" = "登录名 %s 错误"
+"auth.password.error" = "密码错误"
+"auth.check.router.error" = "没有访问权限"
+"auth.get.data.error" = "获取数据权限出错"
+
+## uopload
+"upload.file.not.exist" = "请选择需要上传的文件"
+"upload.file.type.error" = "上传文件类型参数错误"
+"upload.file.size.error" = "上传文件大小不能超过 %s"
+"upload.file.content.type.error" = "上传文件类型只能是 %s"
+
+## Dome
+"dome.error" = "演示Dome，禁止操作"
+
+

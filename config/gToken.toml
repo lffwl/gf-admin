@@ -1,0 +1,16 @@
+# G-Token 参数
+
+## 是否支持多端登录
+MultiLogin = true
+
+## Token加密key
+EncryptKey = "TOw6P7SjjOMnAYdtELKmTmpvbua5Xu2S"
+
+## 认证失败提示
+AuthFailMsg = "身份认证失败"
+
+## 超时时间
+Timeout = 5000
+
+## 缓存刷新时间
+MaxRefresh = 3000
